@@ -65,3 +65,12 @@ sudo systemctl list-units --type=service | grep keystone
 
 ![image](https://github.com/user-attachments/assets/a270c8f4-26ca-49ae-a28b-4bb9cfda43a5)
 
+## Ubuntu install AMI using image
+Install ubuntu image on your system as zip file and unzip it using this link
+
+https://github.com/canonical/ubuntu-image
+
+Now, go to openstack dashboard, images and create image
+
+
+
