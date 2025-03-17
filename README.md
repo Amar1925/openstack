@@ -1,4 +1,4 @@
-# OpenStack
+![image](https://github.com/user-attachments/assets/78628563-dc5a-43f4-abf9-6528297ef299)# OpenStack
 
 ## Installing OpenStack in ubuntu using MicroStack 
 ```
@@ -55,4 +55,13 @@ http://<your-ip>:80
 * Username: admin
 * password: (from above)
 ![image](https://github.com/user-attachments/assets/2bb16b81-5fed-4612-b765-cc5439e2da54)
+
+## Start Keystone Service
+'''
+sudo apt install keystone -y
+sudo systemctl list-units --type=service | grep keystone
+
+'''
+
+![image](https://github.com/user-attachments/assets/a270c8f4-26ca-49ae-a28b-4bb9cfda43a5)
 
