@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/78628563-dc5a-43f4-abf9-6528297ef299)# OpenStack
+## Open Stack
 
 ## Installing OpenStack in ubuntu using MicroStack 
 ```
