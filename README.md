@@ -65,12 +65,25 @@ sudo systemctl list-units --type=service | grep keystone
 
 ![image](https://github.com/user-attachments/assets/a270c8f4-26ca-49ae-a28b-4bb9cfda43a5)
 
-## Ubuntu install AMI using image
-Install ubuntu image on your system as zip file and unzip it using this link
 
-https://github.com/canonical/ubuntu-image
+## Check if services are working correctly
+To check if the services we have deployed are working correctly we will first install openstack Client use this command
+```
+sudo apt install -y python3-openstackclient
+```
+Verify installation using
+```
+openstack --version
+```
+![image](https://github.com/user-attachments/assets/9828b8f9-12cc-4ba1-abac-6eb5f2da5d16)
 
-Now, go to openstack dashboard, images and create image
+Check Services using
+```
+openstack compute service list
+```
+
+
+
 
 
 
